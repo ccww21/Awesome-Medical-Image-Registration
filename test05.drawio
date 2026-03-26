@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="技术路线图" id="0">
+    <mxGraphModel dx="973" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="x(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="97" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="160" width="45" x="257.5" y="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="22FQhbjQfQjKwVCgtWrh-20" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="y₀(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="y₁(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="..." vertex="1">
+          <mxGeometry height="30" width="40" x="450" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="22FQhbjQfQjKwVCgtWrh-21" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="yⱼ(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="22FQhbjQfQjKwVCgtWrh-22" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="选择当前跳频频点的分量" vertex="1">
+          <mxGeometry height="60" width="180" x="550" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="yₚ(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="743" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="复数下变频" vertex="1">
+          <mxGeometry height="40" width="120" x="818" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" value="z(n)" vertex="1">
+          <mxGeometry height="30" width="60" x="968" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="2" style="endArrow=classic;html=1;fontSize=15;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="3" style="endArrow=classic;html=1;fontSize=15;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="3" style="endArrow=classic;html=1;fontSize=15;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="3" style="endArrow=classic;html=1;fontSize=15;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="5" style="endArrow=classic;html=1;fontSize=15;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="10" style="endArrow=classic;html=1;fontSize=15;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22FQhbjQfQjKwVCgtWrh-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="信道化下变频" vertex="1">
+          <mxGeometry height="30" width="170" x="195" y="265" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
