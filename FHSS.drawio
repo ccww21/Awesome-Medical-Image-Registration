@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="FHSS Technical Route" id="0">
+    <mxGraphModel dx="1024" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="原始信息序列 m(t)" vertex="1">
+          <mxGeometry height="60" width="160" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="基带调制&#xa;(BPSK/QPSK/FSK)" vertex="1">
+          <mxGeometry height="60" width="180" x="250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="已调信号 s(t)" vertex="1">
+          <mxGeometry height="60" width="160" x="470" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="伪随机序列生成&#xa;(LFSR / PN序列)" vertex="1">
+          <mxGeometry height="60" width="200" x="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="频率映射模块&#xa;c(t) → {f1,...,fN}" vertex="1">
+          <mxGeometry height="60" width="200" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="频率合成器&#xa;(PLL / VCO)" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gITaCOOmosSvhwclXRWY-18" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="跳频控制信号 f(t)" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="频率跳变调制&#xa;x(t)=s(t)·cos(2πf(t)t)" vertex="1">
+          <mxGeometry height="60" width="220" x="730" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="跳频信号输出&#xa;(FHSS Signal)" vertex="1">
+          <mxGeometry height="60" width="200" x="740" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="2" style="endArrow=block;html=1;fontSize=15;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="3" style="endArrow=block;html=1;fontSize=15;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="5" style="endArrow=block;html=1;fontSize=15;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="6" style="endArrow=block;html=1;fontSize=15;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="7" style="endArrow=block;html=1;fontSize=15;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="8" style="endArrow=block;html=1;fontSize=15;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="9" style="endArrow=block;html=1;fontSize=15;" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
