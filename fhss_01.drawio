@@ -22,7 +22,7 @@
         <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="解调器&#xa;(BPSK/QPSK/FSK)" vertex="1">
           <mxGeometry height="60" width="200" x="249" y="681" as="geometry" />
         </mxCell>
-        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="恢复数据 m̂(t)" vertex="1">
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="恢复数据" vertex="1">
           <mxGeometry height="60" width="180" x="259" y="795" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="PN序列发生器&#xa;(LFSR)" vertex="1">
