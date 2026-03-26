@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="FHSS Receiver Technical Route" id="0">
+    <mxGraphModel dx="1216" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="接收跳频信号 r(t)" vertex="1">
+          <mxGeometry height="60" width="180" x="259" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="射频前端&#xa;(BPF + LNA)" vertex="1">
+          <mxGeometry height="60" width="180" x="519" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="混频器&#xa;(解跳处理)" vertex="1">
+          <mxGeometry height="60" width="180" x="793" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="低通滤波器&#xa;(LPF)" vertex="1">
+          <mxGeometry height="60" width="180" x="793" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="基带信号 s(t)" vertex="1">
+          <mxGeometry height="60" width="180" x="496" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="解调器&#xa;(BPSK/QPSK/FSK)" vertex="1">
+          <mxGeometry height="60" width="200" x="249" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="恢复数据 m̂(t)" vertex="1">
+          <mxGeometry height="60" width="180" x="259" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="PN序列发生器&#xa;(LFSR)" vertex="1">
+          <mxGeometry height="60" width="200" x="249" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="同步模块&#xa;(捕获 + 跟踪)" vertex="1">
+          <mxGeometry height="60" width="200" x="249" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="频率映射&#xa;c(t) → f(t)" vertex="1">
+          <mxGeometry height="60" width="200" x="506" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="频率合成器&#xa;(PLL / VCO)" vertex="1">
+          <mxGeometry height="60" width="200" x="506" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="本振跳频信号 f&#39;(t)" vertex="1">
+          <mxGeometry height="60" width="200" x="783" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="2" style="endArrow=block;html=1;fontSize=15;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="3" style="endArrow=block;html=1;fontSize=15;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="4" style="endArrow=block;html=1;fontSize=15;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="5" style="endArrow=block;html=1;fontSize=15;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="6" style="endArrow=block;html=1;fontSize=15;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="7" style="endArrow=block;html=1;fontSize=15;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="9" style="endArrow=block;html=1;fontSize=15;" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="10" style="endArrow=block;html=1;fontSize=15;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="11" style="endArrow=block;html=1;fontSize=15;" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" source="12" style="endArrow=block;html=1;fontSize=15;" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="13" style="endArrow=block;html=1;fontSize=15;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
